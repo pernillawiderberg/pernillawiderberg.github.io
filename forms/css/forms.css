@@ -1,0 +1,167 @@
+/* ----------- */
+/* ADD FONT 1 */
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap'); */
+
+/* ----------- */
+/* ADD FONT 2 */
+/* @font-face {
+	font-family: roboto-regular;
+	src: url('../font/Roboto-Regular.ttf');
+}
+h2 {
+	font-family: roboto-regular;
+} */
+/* ----------- */
+/* ADD FONTS 3 */
+/* open-sans-regular - latin - modern browsers  */
+/* @font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('css_fonts/open-sans-v18-latin-regular.woff2') format('woff2'), */
+		/* Chrome 26+, Opera 23+, Firefox 39+ */
+		/* url('css_fonts/open-sans-v18-latin-regular.woff') format('woff'); */
+	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+/* }
+body {
+	font-family: 'Open Sans', sans-serif;
+} */
+
+/* --------------------- */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+} */
+.wrapper h1 {
+	font-family: 'Dancing Script', cursive;
+	padding: 1rem 0;
+	text-align: center;
+	font-size: 2.8rem;
+	border-top: 2px solid #025159;
+	border-bottom: 2px solid #025159;
+	color: #025159;  
+}
+.wrapper h2,
+.wrapper h3,
+.wrapper legend {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.5rem;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 1em 3.5rem;
+	padding: 0 0 0 3.5rem;
+	display: flex;
+	flex-flow: row nowrap;
+	border: 0px solid pink;
+}
+
+.wrapper section {
+	flex-basis: 49%;
+	margin-right: 8%;
+	border: 0px solid red;
+	padding-bottom: 4rem;
+}
+
+.wrapper aside {
+	flex-basis: 44%;
+	border: 0px solid green;
+	background-color: #F5DCBF;
+	padding: 0 1rem 0 2rem;
+	padding-bottom: 4rem;
+}
+
+.wrapper p,
+.wrapper [for="abtype"] {
+	margin: 2rem 0 0;
+}
+
+.wrapper fieldset {
+	border: 1px solid black;
+	border: 1px solid #6293A8;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+
+.wrapper legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	font-size: 1.8rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	color: #611FF0;
+	color: #6293A8;
+    color: #025159;
+	border: 0px solid blue;
+}
+
+.wrapper label {
+	border: 0px solid blue;
+	display: block;
+	padding-bottom: 0.3rem;
+}
+
+.wrapper textarea {
+	height: 5rem;
+	padding: 1rem;
+	border: 0px solid blue;
+}
+
+.wrapper button {
+	font-size: 1rem;
+	margin: 0rem 0;
+	background-color: #bb342f;
+	background-color: #6293A8;
+	background-color: #025159;
+	background-color: #D9E2E5;
+	color: white;
+	color: #025159;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+}
+.wrapper button:hover {
+	background-color: #D9E2E5;
+	background-color: #025159;
+	color: #025159;
+	color: white;
+}
+
+/* add cursor change of button!!! */
+.wrapper input:not([type="radio"]):not([type="checkbox"]),
+.wrapper textarea,
+.wrapper select {
+	display: block;
+	border: 1px solid blue;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0.2rem 1rem 0;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 1rem;
+	/* added equal height */
+	height: 1.8rem;
+}
+.wrapper address {
+	margin-bottom: 2rem;
+}
+.plugin {
+	border: 0px solid blue;
+	text-align: center;
+}

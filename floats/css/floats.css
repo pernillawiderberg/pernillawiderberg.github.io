@@ -1,0 +1,146 @@
+/*
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*/
+/*
+#A88F72;
+#FFF1E0;
+#F5DCBF;
+#6293A8;
+#BFE5F5;
+*/
+body {
+  /* background-color: #F5DCBF;
+  background-color: white; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+article.floatPics {
+  background-color: #FFF1E0;
+  background-color: #FDF4E8;
+  background-color: #F5DCBF;
+  width: 28rem;
+  border: 0px solid red;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  height: 100%;
+}
+
+article.floatPics:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article.floatPics h1,
+article.floatPics h2,
+article.floatPics h3 {
+  color: #947E65;
+}
+
+article.floatPics h1 {
+  font-family: 'Dancing Script', cursive;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2.8rem;
+  border-top: 2px solid #025159;
+  border-bottom: 2px solid #025159;
+  color: #025159;
+}
+
+article.floatPics p {
+  font-size: 1.2rem;
+  color: #025159;
+  line-height: 1.7rem;
+  border: 0px solid red;
+}
+
+.floatPics .floatleft {
+  float: left;
+  margin: 0 2rem 2rem 0;
+}
+
+.floatPics .floatright {
+  float: right;
+  border: 0px solid blue;
+  margin: 0 0 2rem 0.9rem;
+  height: 200px;
+}
+
+.floatPics aside {
+  background-color: #6293A8;
+  background-color: #9EBCBF;
+  background-color: #D3D8DC;
+  padding: 1rem 1.8rem;
+  margin: 2rem -2rem;
+  /*  font-family: Georgia, 'Times New Roman', Times, serif; */
+
+}
+.floatPics blockquote {
+  background-color: #6293a8;
+  background-color: #7AB8BF;
+  background-color: #9EBCBF;
+  background-color: #D3D8DC;
+  padding: 0;
+  border: 0px solid red;
+  border-radius: 0;
+  width: 90%;
+}
+
+.floatPics blockquote p {
+  font-family: 'Dancing Script', cursive;
+  color: #BFE5F5;
+  color: #025159;
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  margin-bottom: 1.8rem;
+  margin-top: 1.2rem;
+}
+
+.floatPics blockquote cite {
+  color: #FFF1E0;
+  color: #025159;
+  display: block;
+  font-style: normal;
+  border: 0px solid red;
+}
+img.pink {
+  width: 35vh;
+  width: 90%;
+  display:block;
+  float: none;
+  margin: 0 auto;
+  border: 0px solid blue;
+}
+#minVideo {
+  height: 288px;
+}
+div.header {
+  h eight: 33vw;
+  height: 288px;
+  width: 100%;
+  padding: 0 0 0rem;;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border: 0px solid red;
+}
+div.header img {
+  float: left;
+  height: 33vw; 
+  height: 288px;
+  margin: 0;
+}
+div.header img.left {
+  width: 59vw;
+}
+div.header img.right {
+  width: 59vw;
+}
