@@ -144,8 +144,6 @@ div.header img.right {
   width: 59vw;
 }
 @media screen and (max-width: 992px) {
-  .container {
-  }
   article.floatPics {
       margin-top: 0;
       padding-top: 0;
