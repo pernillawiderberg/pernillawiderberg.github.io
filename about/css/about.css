@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px) {
+        .container {
+        }
+        article.floatPics {
+            margin-top: 0;
+            padding-top: 0;
+            width: auto;
+        }
+        h1 {
+            margin-left: -2rem;
+            margin-right: -2rem;
+        }
+    }

@@ -149,6 +149,7 @@ html {
 	display: block;
 	border: 1px solid blue;
 	width: 20rem;
+	width: 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	padding: 0.2rem 1rem 0;
@@ -164,4 +165,36 @@ html {
 .plugin {
 	border: 0px solid blue;
 	text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+	.wrapper {
+		display: block;
+		padding-left: 2rem;
+	}
+
+	.wrapper fieldset {
+		width: 90%;
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+	.wrapper legend {
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+	.wrapper section {
+		padding-bottom: 0;
+		margin-right: 0;
+	}
+	.wrapper aside {
+		padding: 0;
+		margin-left: -2rem;
+		padding-bottom: 4rem;
+		margin-top: 2rem;
+	}
+	h1 {
+		margin-right: 0;
+	}
+
 }

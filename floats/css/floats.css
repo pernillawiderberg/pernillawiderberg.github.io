@@ -122,7 +122,6 @@ img.pink {
   height: 288px;
 }
 div.header {
-  h eight: 33vw;
   height: 288px;
   width: 100%;
   padding: 0 0 0rem;;
@@ -143,4 +142,23 @@ div.header img.left {
 }
 div.header img.right {
   width: 59vw;
+}
+@media screen and (max-width: 992px) {
+  .container {
+  }
+  article.floatPics {
+      margin-top: 0;
+      padding-top: 0;
+      width: auto;
+  }
+  h1 {
+      margin-left: -2rem;
+      margin-right: -2rem;
+  }
+  .floatPics .floatleft {
+    width: 40vw;
+  }
+  .floatPics .floatright {
+    height: 40vw;
+  }
 }

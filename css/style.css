@@ -76,6 +76,7 @@ a:hover {
     background-color: #025159;
     color: #DAE2E5;
 }
+
 /* ------------------------------ */
 /* NAVIGATION */
 nav {
@@ -134,6 +135,30 @@ ul.menu {
     content: "";
     display: table;
     clear: both;
+  }
+  @media screen and (max-width: 576px) {
+  }
+  @media screen and (max-width: 992px) {
+    nav {
+        margin: 0 0rem 0rem;
+        padding: 0 1rem 0.1rem;
+        font-size: 0.9rem;
+        letter-spacing: 0rem;    
+        display: flex;
+        flex-direction: row nowrap;
+    }
+    nav a, 
+    nav a:link,
+    nav a:visited {
+      padding: 0.3rem 0.6rem 0.2rem;
+    }
+    ul.homie {
+        flex-basis: 80px;
+    }
+    ul.menu {
+        flex-basis: 80%;
+    }
+    
   }
 /* ------------------------ */
 div.header {
@@ -334,7 +359,36 @@ ol li.listTxt {
 .listTxt {
     color: #025159;
 }
-
+@media screen and (max-width: 992px) {
+    .container {
+        display: block;
+    }
+    .leftCol {
+        margin: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem
+    }
+    h1 {
+        margin-left: -2rem;
+        margin-right: -2rem;
+        margin-top: 0;
+        font-size: 2.8rem;
+    
+    }
+    .leftCol blockquote {
+        width: 60%;
+    }
+    .rightCol blockquote {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+    .rightCol blockquote p.citation {
+        padding: 0 2rem 0 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+}
 /* ------------------------ */
 .effect7 {
     position: relative;
